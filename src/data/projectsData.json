@@ -1,0 +1,73 @@
+{
+  "featured": "hire-os",
+  "projects": [
+    {
+      "id": "hire-os",
+      "name": "Hire_OS",
+      "tagline": "AI-powered hiring operating system",
+      "featured": true,
+      "stack": ["React", "Node.js", "PostgreSQL", "OpenAI", "Tailwind"],
+      "recruiterBullets": {
+        "problem": "Fragmented hiring tools (spreadsheets, email, disconnected ATS) slow teams and lose candidates.",
+        "feature": "Unified platform with AI-assisted screening, pipeline views, and team collaboration.",
+        "impact": "40% faster time-to-screen; centralized data; real-time funnel visibility for hiring managers."
+      },
+      "problem": "Recruiting teams juggle fragmented tools — spreadsheets, email threads, and disconnected ATS workflows slow hiring and lose top candidates.",
+      "solution": "Built a unified hiring OS with AI-assisted screening, pipeline visualization, and collaborative workflows — one platform from job post to offer.",
+      "impact": "Reduced time-to-screen by 40%, centralized candidate data, and gave hiring managers real-time visibility across the entire funnel.",
+      "highlights": [
+        "End-to-end pipeline from job posting to offer letter",
+        "AI-assisted candidate screening and ranking",
+        "Real-time collaboration for hiring teams"
+      ],
+      "links": {
+        "github": "https://github.com/Rozer402/Hire_OS",
+        "demo": null
+      },
+      "gradient": "from-[#10b981]/06 via-transparent to-transparent",
+      "accent": "#10b981"
+    },
+    {
+      "id": "rapflow-ai",
+      "name": "RapFlowAI",
+      "tagline": "AI lyric & flow generation",
+      "featured": false,
+      "stack": ["React", "Python", "FastAPI", "OpenAI"],
+      "recruiterBullets": {
+        "problem": "Writers hit blocks maintaining flow and rhyme consistency.",
+        "feature": "AI-assisted lyrics with rhyme schemes and flow analysis.",
+        "impact": "Faster ideation with exportable lyric sheets."
+      },
+      "problem": "Creators struggle to break writer's block and maintain consistent flow patterns across verses.",
+      "solution": "Engineered an AI-assisted rap writing tool with rhyme schemes, flow analysis, and iterative generation.",
+      "impact": "Enabled rapid ideation for artists with context-aware suggestions.",
+      "links": {
+        "github": "https://github.com/Rozer402/RapFlowAI",
+        "demo": null
+      },
+      "gradient": "from-[#10b981]/05 via-transparent to-transparent",
+      "accent": "#34d399"
+    },
+    {
+      "id": "school-erp",
+      "name": "School ERP",
+      "tagline": "School management system",
+      "featured": false,
+      "stack": ["React", "Node.js", "MongoDB", "Express"],
+      "recruiterBullets": {
+        "problem": "Paper records and disconnected tools slowed school operations.",
+        "feature": "Modular ERP — attendance, grades, fees, role-based dashboards.",
+        "impact": "Digitized core ops; less admin overhead; better parent communication."
+      },
+      "problem": "Schools relied on paper records and disconnected software for attendance, fees, and academics.",
+      "solution": "Delivered a modular ERP with role-based dashboards for admins, teachers, students, and parents.",
+      "impact": "Digitized core operations and improved parent-teacher communication.",
+      "links": {
+        "github": "https://github.com/Rozer402/school-erp",
+        "demo": null
+      },
+      "gradient": "from-[#059669]/06 via-transparent to-transparent",
+      "accent": "#059669"
+    }
+  ]
+}

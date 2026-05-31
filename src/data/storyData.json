@@ -1,0 +1,63 @@
+{
+  "developer": {
+    "name": "Aditya",
+    "title": "Full-Stack Engineer · AI & Product Systems",
+    "location": "India",
+    "availability": "Open to full-time & contract roles"
+  },
+  "links": {
+    "github": "https://github.com/Rozer402",
+    "email": "adibhusal01@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aditya-bhusal-baa2b6391/"
+  },
+  "intro": {
+    "greeting": "Hi, I'm",
+    "valueStatement": "I build AI-powered systems that solve real-world hiring and automation problems using full-stack engineering.",
+    "keywords": ["AI-powered", "full-stack", "hiring", "automation", "system design"],
+    "proofLine": "Built Hire_OS — an AI-powered recruitment system for end-to-end hiring workflows.",
+    "ctas": {
+      "projects": "View Projects",
+      "github": "GitHub"
+    }
+  },
+  "journey": {
+    "title": "Background",
+    "subtitle": "How I got here — in brief.",
+    "milestones": [
+      {
+        "year": "2021",
+        "phase": "Start",
+        "title": "Web foundations",
+        "description": "HTML, CSS, JavaScript — first shipped projects users could touch.",
+        "icon": "spark"
+      },
+      {
+        "year": "2022",
+        "phase": "Stack",
+        "title": "Full-stack core",
+        "description": "React, Node.js, databases — APIs, CRUD, and system thinking.",
+        "icon": "layers"
+      },
+      {
+        "year": "2023",
+        "phase": "Ship",
+        "title": "Production apps",
+        "description": "ERP, AI tools, hiring platforms — focus on UX, performance, maintainability.",
+        "icon": "rocket"
+      },
+      {
+        "year": "2024–25",
+        "phase": "Now",
+        "title": "Product engineer",
+        "description": "Own features end-to-end — APIs, UI, AI integration, deployment.",
+        "icon": "star"
+      }
+    ]
+  },
+  "finale": {
+    "headline": "Let's build something impactful together.",
+    "subtext": "Open to engineering roles, collaborations, and ambitious products. Reach out — I respond quickly.",
+    "cta": "Email Me",
+    "secondaryCta": "GitHub"
+  }
+}
