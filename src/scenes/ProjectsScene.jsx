@@ -118,7 +118,7 @@ export default function ProjectsScene() {
         variants={staggerContainer}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: false, amount: 0.2, margin: '-60px' }}
+        viewport={{ once: true, amount: 0.15, margin: '-60px' }}
       >
         {featured && (
           <motion.div variants={staggerItem}>

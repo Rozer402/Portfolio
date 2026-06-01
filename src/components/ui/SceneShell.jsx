@@ -11,6 +11,7 @@ export const SceneShell = forwardRef(function SceneShell(
   const sectionRef = useRef(null);
   const reducedMotion = usePrefersReducedMotion();
   const [phase, setPhase] = useState(reducedMotion ? 'visible' : 'hidden');
+  const hasEnteredRef = useRef(false);
 
   useEffect(() => {
     if (reducedMotion) setPhase('visible');
@@ -39,8 +40,10 @@ export const SceneShell = forwardRef(function SceneShell(
       variants={SCENE_SCROLL_VARIANTS}
       initial={reducedMotion ? 'visible' : 'hidden'}
       animate={phase}
-      onViewportEnter={() => setPhase('visible')}
-      onViewportLeave={() => !reducedMotion && setPhase('exit')}
+      onViewportEnter={() => {
+        hasEnteredRef.current = true;
+        setPhase('visible');
+      }}
       viewport={VIEWPORT_SCENE}
     >
       {!reducedMotion && (
@@ -72,7 +75,7 @@ export function SceneHeader({ label, title, subtitle, meta }) {
       variants={staggerContainer}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: false, amount: 0.4 }}
+      viewport={{ once: true, amount: 0.3 }}
     >
       {label && (
         <motion.p

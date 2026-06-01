@@ -51,13 +51,13 @@ export function SceneManager() {
       <MobileSceneBar />
 
       <main className="relative z-[1] pb-20 md:pb-0 md:pl-12">
-        <Suspense fallback={<SceneLoader />}>
-          {SCENE_SEQUENCE.map(({ id, Component }) => (
-            <SceneWrapper key={id} sceneId={id}>
+        {SCENE_SEQUENCE.map(({ id, Component }) => (
+          <SceneWrapper key={id} sceneId={id}>
+            <Suspense fallback={<SceneLoader />}>
               <Component />
-            </SceneWrapper>
-          ))}
-        </Suspense>
+            </Suspense>
+          </SceneWrapper>
+        ))}
       </main>
     </>
   );

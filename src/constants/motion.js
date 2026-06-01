@@ -47,7 +47,7 @@ export const GLIDE_IN = {
   },
 };
 
-/** Scroll-driven scene: enter from below, exit upward */
+/** Scroll-driven scene: enter from below */
 export const SCENE_SCROLL_VARIANTS = {
   hidden: {
     opacity: 0,
@@ -65,16 +65,6 @@ export const SCENE_SCROLL_VARIANTS = {
       when: 'beforeChildren',
       staggerChildren: STAGGER.normal,
       delayChildren: STAGGER.tight,
-    },
-  },
-  exit: {
-    opacity: 0,
-    y: -28,
-    filter: 'blur(4px)',
-    transition: {
-      duration: 0.55,
-      ease: EASE,
-      opacity: { duration: 0.45 },
     },
   },
 };
