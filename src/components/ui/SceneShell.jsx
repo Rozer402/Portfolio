@@ -1,6 +1,6 @@
-import { forwardRef, useRef, useState, useEffect } from 'react';
+import { forwardRef, useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { SCENE_SCROLL_VARIANTS, VIEWPORT_SCENE } from '../../constants/motion';
+import { SCENE_SCROLL_VARIANTS } from '../../constants/motion';
 import { staggerContainer, staggerItem } from '../animations/motionPrimitives';
 import { usePrefersReducedMotion } from '../../hooks/usePrefersReducedMotion';
 
@@ -10,12 +10,6 @@ export const SceneShell = forwardRef(function SceneShell(
 ) {
   const sectionRef = useRef(null);
   const reducedMotion = usePrefersReducedMotion();
-  const [phase, setPhase] = useState(reducedMotion ? 'visible' : 'hidden');
-  const hasEnteredRef = useRef(false);
-
-  useEffect(() => {
-    if (reducedMotion) setPhase('visible');
-  }, [reducedMotion]);
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -39,12 +33,8 @@ export const SceneShell = forwardRef(function SceneShell(
       className={`relative min-h-screen w-full border-b border-white/[0.04] ${className}`}
       variants={SCENE_SCROLL_VARIANTS}
       initial={reducedMotion ? 'visible' : 'hidden'}
-      animate={phase}
-      onViewportEnter={() => {
-        hasEnteredRef.current = true;
-        setPhase('visible');
-      }}
-      viewport={VIEWPORT_SCENE}
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.1 }}
     >
       {!reducedMotion && (
         <motion.div
@@ -75,7 +65,7 @@ export function SceneHeader({ label, title, subtitle, meta }) {
       variants={staggerContainer}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.2 }}
     >
       {label && (
         <motion.p
