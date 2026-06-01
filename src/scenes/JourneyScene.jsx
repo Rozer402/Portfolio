@@ -31,7 +31,7 @@ function TimelineRow({ milestone, index }) {
   );
 }
 
-export function JourneyScene() {
+export default function JourneyScene() {
   return (
     <SceneShell id={`scene-${SCENE_IDS.JOURNEY}`} sceneId={SCENE_IDS.JOURNEY}>
       <SceneHeader label="Background" title={journey.title} subtitle={journey.subtitle} />

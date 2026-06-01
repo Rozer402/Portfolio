@@ -27,7 +27,7 @@ function SkillRow({ name, level }) {
   );
 }
 
-export function SkillsScene() {
+export default function SkillsScene() {
   const [activeId, setActiveId] = useState(categories[0].id);
   const active = categories.find((c) => c.id === activeId) ?? categories[0];
 

@@ -101,7 +101,7 @@ function ProjectRow({ project }) {
   );
 }
 
-export function ProjectsScene() {
+export default function ProjectsScene() {
   const [modalProject, setModalProject] = useState(null);
   const featured = projects.find((p) => p.featured);
   const others = projects.filter((p) => !p.featured);

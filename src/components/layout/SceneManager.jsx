@@ -7,21 +7,11 @@ import { ProgressIndicator } from './ProgressIndicator';
 import { SideNav } from './SideNav';
 import { MobileSceneBar } from './MobileSceneBar';
 
-const IntroScene = lazy(() =>
-  import('../../scenes/IntroScene').then((m) => ({ default: m.IntroScene })),
-);
-const ProjectsScene = lazy(() =>
-  import('../../scenes/ProjectsScene').then((m) => ({ default: m.ProjectsScene })),
-);
-const JourneyScene = lazy(() =>
-  import('../../scenes/JourneyScene').then((m) => ({ default: m.JourneyScene })),
-);
-const SkillsScene = lazy(() =>
-  import('../../scenes/SkillsScene').then((m) => ({ default: m.SkillsScene })),
-);
-const FinaleScene = lazy(() =>
-  import('../../scenes/FinaleScene').then((m) => ({ default: m.FinaleScene })),
-);
+const IntroScene = lazy(() => import('../../scenes/IntroScene'));
+const ProjectsScene = lazy(() => import('../../scenes/ProjectsScene'));
+const JourneyScene = lazy(() => import('../../scenes/JourneyScene'));
+const SkillsScene = lazy(() => import('../../scenes/SkillsScene'));
+const FinaleScene = lazy(() => import('../../scenes/FinaleScene'));
 
 function SceneLoader() {
   return (

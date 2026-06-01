@@ -11,7 +11,7 @@ import storyData from '../data/storyData.json';
 const { developer, intro } = storyData;
 const profileLinks = getProfileLinks();
 
-export function IntroScene() {
+export default function IntroScene() {
   const { goToScene } = useStory();
 
   return (

@@ -11,7 +11,7 @@ const { developer, finale } = storyData;
 const profileLinks = getProfileLinks();
 const contactLinks = getContactNavLinks();
 
-export function FinaleScene() {
+export default function FinaleScene() {
   return (
     <SceneShell id={`scene-${SCENE_IDS.FINALE}`} sceneId={SCENE_IDS.FINALE}>
       <motion.div variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.3 }}>
