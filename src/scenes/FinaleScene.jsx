@@ -11,6 +11,8 @@ const { developer, finale } = storyData;
 const profileLinks = getProfileLinks();
 const contactLinks = getContactNavLinks();
 
+const RESUME_URL = 'https://drive.google.com/file/d/1p1DarDbPaYHV9x6Zic7xarzJPYqJRiKU/view?usp=sharing';
+
 export default function FinaleScene() {
   return (
     <SceneShell id={`scene-${SCENE_IDS.FINALE}`} sceneId={SCENE_IDS.FINALE}>
@@ -35,6 +37,9 @@ export default function FinaleScene() {
           <Button size="lg" variant="secondary" href={profileLinks.github}>
             {finale.secondaryCta}
           </Button>
+          <Button size="lg" variant="secondary" href={RESUME_URL}>
+            {finale.resumeCta} ↓
+          </Button>
         </motion.div>
 
         <motion.ul variants={staggerItem} className="mt-14 space-y-0 border-t border-white/[0.06]">
@@ -55,7 +60,7 @@ export default function FinaleScene() {
         </motion.ul>
 
         <motion.footer variants={staggerItem} className="mt-16 font-mono text-[11px] text-muted">
-          © {new Date().getFullYear()} {developer.name}
+          © {new Date().getFullYear()} {developer.name} · Built with React + Framer Motion
         </motion.footer>
       </motion.div>
     </SceneShell>

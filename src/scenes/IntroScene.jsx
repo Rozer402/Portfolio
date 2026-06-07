@@ -46,9 +46,9 @@ export default function IntroScene() {
           variants={staggerItem}
           className="mt-6 max-w-lg text-base leading-relaxed text-secondary"
         >
-          Built <span className="text-gold font-medium">Hire_OS</span>
+          <span className="text-emerald font-medium">Argus</span>
           {' — '}
-          {intro.proofLine.replace(/^Built Hire_OS —?\s*/i, '')}
+          {intro.proofLine.replace(/^Shipped Argus —?\s*/i, '')}
         </motion.p>
 
         <motion.div variants={staggerItem} className="mt-10 flex flex-wrap gap-3">

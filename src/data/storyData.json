@@ -1,9 +1,9 @@
 {
   "developer": {
-    "name": "Aditya",
-    "title": "Full-Stack Engineer · AI & Product Systems",
-    "location": "India",
-    "availability": "Open to full-time & contract roles"
+    "name": "Aditya Bhusal",
+    "title": "Full-Stack Engineer · Developer Tools & AI Systems",
+    "location": "Bengaluru, India",
+    "availability": "Open to full-time & internship roles — available immediately"
   },
   "links": {
     "github": "https://github.com/Rozer402",
@@ -12,52 +12,53 @@
   },
   "intro": {
     "greeting": "Hi, I'm",
-    "valueStatement": "I build AI-powered systems that solve real-world hiring and automation problems using full-stack engineering.",
-    "keywords": ["AI-powered", "full-stack", "hiring", "automation", "system design"],
-    "proofLine": "Built Hire_OS — an AI-powered recruitment system for end-to-end hiring workflows.",
+    "valueStatement": "I build developer tools and full-stack systems — from AI-powered hiring platforms to automated code-review pipelines.",
+    "keywords": ["developer tools", "full-stack", "AI-powered", "automated", "code-review"],
+    "proofLine": "Shipped Argus — a GitHub Action that auto-reviews every PR using Llama 3.3 70B, catching severity issues before they merge.",
     "ctas": {
-      "projects": "View Projects",
+      "projects": "See My Work",
       "github": "GitHub"
     }
   },
   "journey": {
-    "title": "Background",
-    "subtitle": "How I got here — in brief.",
+    "title": "How I got here",
+    "subtitle": "3 years of building things people actually use.",
     "milestones": [
       {
         "year": "2021",
-        "phase": "Start",
-        "title": "Web foundations",
-        "description": "HTML, CSS, JavaScript — first shipped projects users could touch.",
+        "phase": "Foundation",
+        "title": "Learned by building",
+        "description": "Started with HTML, CSS, and vanilla JS — built small tools until they worked. Learned that shipping beats perfecting.",
         "icon": "spark"
       },
       {
         "year": "2022",
-        "phase": "Stack",
-        "title": "Full-stack core",
-        "description": "React, Node.js, databases — APIs, CRUD, and system thinking.",
+        "phase": "Full-Stack",
+        "title": "React, Node, databases",
+        "description": "Built my first API-driven apps. Figured out auth, CRUD, state management, and why MongoDB and PostgreSQL are different tools for different problems.",
         "icon": "layers"
       },
       {
         "year": "2023",
-        "phase": "Ship",
-        "title": "Production apps",
-        "description": "ERP, AI tools, hiring platforms — focus on UX, performance, maintainability.",
+        "phase": "Production",
+        "title": "Shipped for real users",
+        "description": "Deployed School ERP to a live institution. Built HireOS with AI screening. Learned that production has problems textbooks don't cover.",
         "icon": "rocket"
       },
       {
         "year": "2024–25",
-        "phase": "Now",
-        "title": "Product engineer",
-        "description": "Own features end-to-end — APIs, UI, AI integration, deployment.",
+        "phase": "Tools",
+        "title": "Developer tooling & CI/CD",
+        "description": "Built Argus — a GitHub Action that brings AI code review to any repo. Now I care as much about the developer experience of a tool as the end product.",
         "icon": "star"
       }
     ]
   },
   "finale": {
-    "headline": "Let's build something impactful together.",
-    "subtext": "Open to engineering roles, collaborations, and ambitious products. Reach out — I respond quickly.",
+    "headline": "Let's build something worth shipping.",
+    "subtext": "I'm a 3rd-year CS student in Bengaluru actively looking for roles where I can build real products. I move fast, I care about quality, and I respond quickly.",
     "cta": "Email Me",
-    "secondaryCta": "GitHub"
+    "secondaryCta": "GitHub",
+    "resumeCta": "Download Resume"
   }
 }

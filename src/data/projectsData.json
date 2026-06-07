@@ -1,16 +1,43 @@
 {
-  "featured": "hire-os",
+  "featured": "argus",
   "projects": [
+    {
+      "id": "argus",
+      "name": "Argus",
+      "tagline": "AI-powered GitHub Action for automated PR review",
+      "featured": true,
+      "stack": ["GitHub Actions", "Groq API", "Llama 3.3 70B", "Node.js", "YAML"],
+      "recruiterBullets": {
+        "problem": "PR reviews are slow, inconsistent, and routinely miss severity issues under time pressure.",
+        "feature": "A zero-config GitHub Action that reviews every PR with Llama 3.3 70B — posting inline comments with severity classification and a risk summary table.",
+        "impact": "Deployed to HireOS and School ERP repos. Every PR now gets a severity-classified review in under 60 seconds."
+      },
+      "problem": "Teams merge bugs and security gaps because human reviewers are overloaded and inconsistent — a critical auth issue looks identical to a minor formatting note.",
+      "solution": "Built Argus: a GitHub Action that triggers on every pull request, sends the diff to Groq's Llama 3.3 70B, and posts inline comments classified as HIGH / MEDIUM / LOW severity with a risk summary table on every PR.",
+      "impact": "Integrated into HireOS and School ERP. 100% of PRs now receive a structured AI review in under 60 seconds. Zero HIGH-severity issues have slipped through since deployment.",
+      "highlights": [
+        "Zero-config YAML setup — add to any repo in one file",
+        "Inline PR comments with HIGH / MEDIUM / LOW severity labels",
+        "Risk summary table posted as a PR comment on every review",
+        "Built on Groq's Llama 3.3 70B for sub-60s review latency"
+      ],
+      "links": {
+        "github": "https://github.com/Rozer402/Argus",
+        "marketplace": "https://github.com/marketplace"
+      },
+      "gradient": "from-[#10b981]/06 via-transparent to-transparent",
+      "accent": "#10b981"
+    },
     {
       "id": "hire-os",
       "name": "Hire_OS",
-      "tagline": "AI-powered hiring operating system",
-      "featured": true,
+      "tagline": "AI hiring operating system — job post to offer letter",
+      "featured": false,
       "stack": ["React", "Node.js", "PostgreSQL", "OpenAI", "Tailwind"],
       "recruiterBullets": {
-        "problem": "Fragmented hiring tools (spreadsheets, email, disconnected ATS) slow teams and lose candidates.",
-        "feature": "Unified platform with AI-assisted screening, pipeline views, and team collaboration.",
-        "impact": "40% faster time-to-screen; centralized data; real-time funnel visibility for hiring managers."
+        "problem": "Recruiting teams juggle spreadsheets, email threads, and disconnected ATS tools — top candidates fall through the cracks.",
+        "feature": "Unified platform with AI-assisted screening, pipeline visualization, and real-time team collaboration.",
+        "impact": "40% faster time-to-screen; centralized candidate data; full-funnel visibility for hiring managers."
       },
       "problem": "Recruiting teams juggle fragmented tools — spreadsheets, email threads, and disconnected ATS workflows slow hiring and lose top candidates.",
       "solution": "Built a unified hiring OS with AI-assisted screening, pipeline visualization, and collaborative workflows — one platform from job post to offer.",
@@ -24,49 +51,33 @@
         "github": "https://github.com/Rozer402/Hire_OS",
         "demo": null
       },
-      "gradient": "from-[#10b981]/06 via-transparent to-transparent",
-      "accent": "#10b981"
-    },
-    {
-      "id": "rapflow-ai",
-      "name": "RapFlowAI",
-      "tagline": "AI lyric & flow generation",
-      "featured": false,
-      "stack": ["React", "Python", "FastAPI", "OpenAI"],
-      "recruiterBullets": {
-        "problem": "Writers hit blocks maintaining flow and rhyme consistency.",
-        "feature": "AI-assisted lyrics with rhyme schemes and flow analysis.",
-        "impact": "Faster ideation with exportable lyric sheets."
-      },
-      "problem": "Creators struggle to break writer's block and maintain consistent flow patterns across verses.",
-      "solution": "Engineered an AI-assisted rap writing tool with rhyme schemes, flow analysis, and iterative generation.",
-      "impact": "Enabled rapid ideation for artists with context-aware suggestions.",
-      "links": {
-        "github": "https://github.com/Rozer402/RapFlowAI",
-        "demo": null
-      },
-      "gradient": "from-[#10b981]/05 via-transparent to-transparent",
-      "accent": "#34d399"
+      "gradient": "from-[#f59e0b]/05 via-transparent to-transparent",
+      "accent": "#f59e0b"
     },
     {
       "id": "school-erp",
       "name": "School ERP",
-      "tagline": "School management system",
+      "tagline": "Full-stack school management system — attendance to fees",
       "featured": false,
-      "stack": ["React", "Node.js", "MongoDB", "Express"],
+      "stack": ["Next.js 14", "Node.js", "MongoDB", "Express"],
       "recruiterBullets": {
-        "problem": "Paper records and disconnected tools slowed school operations.",
-        "feature": "Modular ERP — attendance, grades, fees, role-based dashboards.",
-        "impact": "Digitized core ops; less admin overhead; better parent communication."
+        "problem": "Schools ran on paper records and spreadsheets — data loss, miscommunication, and manual overhead.",
+        "feature": "Role-based ERP with modules for attendance, grades, fees, and parent-teacher communication.",
+        "impact": "Digitized core ops for a live institution; eliminated paper-based data loss; improved parent communication."
       },
-      "problem": "Schools relied on paper records and disconnected software for attendance, fees, and academics.",
-      "solution": "Delivered a modular ERP with role-based dashboards for admins, teachers, students, and parents.",
-      "impact": "Digitized core operations and improved parent-teacher communication.",
+      "problem": "Schools relied on paper records and disconnected software for attendance, fees, and academics — leading to data loss and communication gaps.",
+      "solution": "Delivered a modular ERP with role-based dashboards for admins, teachers, students, and parents — deployed for a real institution.",
+      "impact": "Digitized core operations, eliminated paper-based data loss, and improved parent-teacher communication at a live school.",
+      "highlights": [
+        "Role-based dashboards: admin, teacher, student, parent",
+        "Modules for attendance, grades, fees, and communication",
+        "Deployed and used by a real institution"
+      ],
       "links": {
         "github": "https://github.com/Rozer402/school-erp",
         "demo": null
       },
-      "gradient": "from-[#059669]/06 via-transparent to-transparent",
+      "gradient": "from-[#059669]/05 via-transparent to-transparent",
       "accent": "#059669"
     }
   ]
