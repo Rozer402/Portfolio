@@ -1,3 +1,4 @@
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Argus%20AI%20PR%20Review-blue?logo=github)](https://github.com/marketplace/actions/argus-ai-pr-review)
 # Interactive Developer Story
 
 A scroll-driven, scene-based portfolio built as an immersive narrative experience. Powered by React, Vite, Tailwind CSS, and Framer Motion.
