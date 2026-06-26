@@ -11,7 +11,7 @@ const { developer, finale } = storyData;
 const profileLinks = getProfileLinks();
 const contactLinks = getContactNavLinks();
 
-const RESUME_URL = 'https://drive.google.com/file/d/1p1DarDbPaYHV9x6Zic7xarzJPYqJRiKU/view?usp=sharing';
+const RESUME_URL = 'https://drive.google.com/file/d/15QlBOT-wZE7POfigmL4QnBHrPkMPj0Bn/view?usp=sharing';
 
 export default function FinaleScene() {
   return (

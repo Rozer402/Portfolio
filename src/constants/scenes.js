@@ -1,6 +1,7 @@
 export const SCENE_IDS = {
   INTRO: 'intro',
   PROJECTS: 'projects',
+  CURRENTLY_BUILDING: 'currently-building',
   JOURNEY: 'journey',
   SKILLS: 'skills',
   FINALE: 'finale',
@@ -10,6 +11,7 @@ export const SCENE_IDS = {
 export const SCENE_ORDER = [
   SCENE_IDS.INTRO,
   SCENE_IDS.PROJECTS,
+  SCENE_IDS.CURRENTLY_BUILDING,
   SCENE_IDS.JOURNEY,
   SCENE_IDS.SKILLS,
   SCENE_IDS.FINALE,
@@ -18,6 +20,7 @@ export const SCENE_ORDER = [
 export const SCENE_LABELS = {
   [SCENE_IDS.INTRO]: 'Intro',
   [SCENE_IDS.PROJECTS]: 'Projects',
+  [SCENE_IDS.CURRENTLY_BUILDING]: 'Lab',
   [SCENE_IDS.JOURNEY]: 'Background',
   [SCENE_IDS.SKILLS]: 'Skills',
   [SCENE_IDS.FINALE]: 'Contact',

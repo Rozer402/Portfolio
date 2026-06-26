@@ -9,6 +9,7 @@ import { MobileSceneBar } from './MobileSceneBar';
 
 const IntroScene = lazy(() => import('../../scenes/IntroScene'));
 const ProjectsScene = lazy(() => import('../../scenes/ProjectsScene'));
+const CurrentlyBuildingScene = lazy(() => import('../../scenes/CurrentlyBuildingScene'));
 const JourneyScene = lazy(() => import('../../scenes/JourneyScene'));
 const SkillsScene = lazy(() => import('../../scenes/SkillsScene'));
 const FinaleScene = lazy(() => import('../../scenes/FinaleScene'));
@@ -36,6 +37,7 @@ function SceneWrapper({ sceneId, children }) {
 const SCENE_SEQUENCE = [
   { id: SCENE_IDS.INTRO, Component: IntroScene },
   { id: SCENE_IDS.PROJECTS, Component: ProjectsScene },
+  { id: SCENE_IDS.CURRENTLY_BUILDING, Component: CurrentlyBuildingScene },
   { id: SCENE_IDS.JOURNEY, Component: JourneyScene },
   { id: SCENE_IDS.SKILLS, Component: SkillsScene },
   { id: SCENE_IDS.FINALE, Component: FinaleScene },
