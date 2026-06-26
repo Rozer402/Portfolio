@@ -12,9 +12,13 @@
   },
   "intro": {
     "greeting": "Hi, I'm",
-    "valueStatement": "I build developer tools and full-stack systems — from AI-powered hiring platforms to automated code-review pipelines.",
-    "keywords": ["developer tools", "full-stack", "AI-powered", "automated", "code-review"],
-    "proofLine": "Shipped Argus — a GitHub Action that auto-reviews every PR using Llama 3.3 70B, catching severity issues before they merge.",
+    "valueStatement": "I'm a full-stack developer who'd rather ship something real than perfect a slide deck about it.",
+    "keywords": [
+      "full-stack",
+      "ship",
+      "real"
+    ],
+    "proofLine": "Shipped Argus — my GitHub Action for AI code review — it's live on GitHub Marketplace and runs on every PR in my own repos.",
     "ctas": {
       "projects": "See My Work",
       "github": "GitHub"
