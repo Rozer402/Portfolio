@@ -79,6 +79,28 @@
       },
       "gradient": "from-[#059669]/05 via-transparent to-transparent",
       "accent": "#059669"
+    },
+    {
+      "id": "mindbridge-ai",
+      "name": "MindBridge AI",
+      "tagline": "AI-powered architectural intelligence",
+      "featured": false,
+      "status": "building",
+      "statusLabel": "Building",
+      "stack": ["React", "Node.js", "Python", "Llama 3"],
+      "problem": "Architects struggle to parse complex zoning laws and building codes during the initial design phase, leading to costly revisions.",
+      "solution": "Building an AI-powered assistant that ingests local building codes and provides real-time compliance checks against architectural plans.",
+      "impact": "Expected to reduce compliance-related revisions by 60% and accelerate the initial design phase for architectural firms.",
+      "highlights": [
+        "RAG pipeline for navigating complex local zoning laws",
+        "Interactive compliance checking via conversational interface",
+        "Real-time feedback on architectural drafts"
+      ],
+      "links": {
+        "github": "https://github.com/Rozer402/MindBridge_AI"
+      },
+      "gradient": "from-[#8b5cf6]/05 via-transparent to-transparent",
+      "accent": "#8b5cf6"
     }
   ]
 }
